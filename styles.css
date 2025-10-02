@@ -44,12 +44,12 @@ main {
 }
 @media (max-width: 768px) {
   .portada {
-    min-height: auto;  /* ✅ altura se ajusta al contenido */
+    min-height: auto;  /*  altura se ajusta al contenido */
     padding: 40px 20px;
   }
 
   .portada h1 {
-    font-size: 2.2rem; /* ✅ reduce tamaño sin romper */
+    font-size: 2.2rem; /*  reducir tamaño sin romper */
     text-align: center;
   }
 
@@ -174,7 +174,7 @@ footer {
   gap: 12px;
   text-align: center;
   border-top: 2px solid rgba(255, 255, 255, 0.2);
-  animation: slideUp 1.2s ease-in-out; /* 🔥 animación de entrada */
+  animation: slideUp 1.2s ease-in-out; /* animación de entrada */
 }
 
 footer:hover {
@@ -344,8 +344,6 @@ section:hover {
 
 
 
-
-/* Clases para aplicar fácilmente */
 .fade-in { animation: fadeIn 1.5s ease-in-out forwards; }
 .slide-left { animation: slideLeft 1.2s ease forwards; }
 .slide-right { animation: slideRight 1.2s ease forwards; }
